@@ -1,0 +1,31 @@
+@import "settings";
+@import "foundation";
+
+section.auth {
+	h2 {
+		margin-bottom: rem-calc(60);
+	}
+}
+
+section.play-quiz {
+	padding: rem-calc(40);
+	
+	.answer {
+		&.panel {
+			background-color: $white;
+			border: 0;
+		}
+	}
+
+	.action-bar {
+		margin-top: rem-calc(25);
+	}
+}
+
+aside.scoreboard {
+	padding: rem-calc(40);
+
+	.score-me {
+		margin-bottom: rem-calc(80);
+	}
+}

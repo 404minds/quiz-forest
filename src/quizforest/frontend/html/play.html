@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz Forest</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">Quiz Forest</a></h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li class="has-dropdown">
+                        <a href="#">Tushar Agarwal</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Profile</a></li>
+                            <li class="active"><a href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <nav class="breadcrumbs">
+        <a href="#">Home</a>
+        <a href="#" class="current">JavaScript</a>
+    </nav>
+    <div class="row">
+        <div class="large-8 columns">
+            <section class="play-quiz">
+                <div class="panel question">
+                    <h5>Question 1 of 8</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nemo nisi voluptate veniam vitae, doloremque, ut voluptas officia, fuga doloribus obcaecati hic vel voluptatum provident necessitatibus maiores soluta. Esse quasi odio consequuntur sit, perferendis veritatis reprehenderit molestiae laudantium ea quisquam dolores qui reiciendis nobis sunt, praesentium quia dolor, pariatur vitae?</p>
+                </div>
+                <div class="panel answer">
+                    <h5>Answer</h5>
+                    <p>Choose the most appropriate answer:</p>
+                    <form action="">
+                        <div class="row">
+                            <div class="small-6 columns">
+                                <input type="radio" name="option" value="one" id="option1"><label for="option1">Lorem ipsum dolor sit amet.</label>
+                            </div>
+                            <div class="small-6 columns">
+                                <input type="radio" name="option" value="two" id="option2"><label for="option2">Lorem ipsum dolor sit.</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-6 columns">
+                                <input type="radio" name="option" value="three" id="option3"><label for="option3">Lorem ipsum dolor sit amet.</label>
+                            </div>
+                            <div class="small-6 columns">
+                                <input type="radio" name="option" value="four" id="option4"><label for="option4">Lorem ipsum dolor sit.</label>
+                            </div>
+                        </div>
+                        <div class="row action-bar">
+                            <div class="small-12 columns text-center">
+                                <a href="#" class="button success small radius">Submit</a>
+                                <a href="#" class="button secondary small radius">Skip</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="large-4 columns">
+            <aside class="scoreboard text-center">
+                <div class="score-me">
+                    <h4>Your Score</h4>
+                    <p>21</p>
+                </div>
+                <div class="score-world">
+                    <h4>Top Score</h4>
+                    <p>2134</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery-2.1.4.min.js"><\/script>')
+    </script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
